@@ -16,7 +16,7 @@
 - UIViewControllers
 
 ## Gif
-[demo1](https://media.giphy.com/media/ialBE7Y59FNxa9wVGc/giphy.gif)
+![demo1](https://media.giphy.com/media/ialBE7Y59FNxa9wVGc/giphy.gif)
 
 ## Photos
 
