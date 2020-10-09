@@ -21,6 +21,6 @@
 ## Photos
 
 <p float= "center">
-<img width="300" height="600" alt="screen1" src=""/>
-
+<img width="300" height="600" alt="screen1" src="https://github.com/miltonpl/UIElements/blob/master/images/image1.png"/>
+<img width="300" height="600" alt="screen1" src="https://github.com/miltonpl/UIElements/blob/master/images/image2.png"/>
 </p>
