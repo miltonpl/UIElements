@@ -14,6 +14,7 @@
 		5204F25E2530C7BB00F97A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5204F25D2530C7BB00F97A6C /* Assets.xcassets */; };
 		5204F2612530C7BB00F97A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5204F25F2530C7BB00F97A6C /* LaunchScreen.storyboard */; };
 		5204F26B2530D3E900F97A6C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204F26A2530D3E900F97A6C /* Constant.swift */; };
+		5204F26F2531063100F97A6C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5204F26E2531063100F97A6C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5204F2602530C7BB00F97A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5204F2622530C7BB00F97A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5204F26A2530D3E900F97A6C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5204F26E2531063100F97A6C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		5204F2482530C7B600F97A6C = {
 			isa = PBXGroup;
 			children = (
+				5204F27525310F0700F97A6C /* images */,
 				5204F2532530C7B600F97A6C /* UIElements */,
 				5204F2522530C7B600F97A6C /* Products */,
 			);
@@ -58,28 +61,88 @@
 		5204F2532530C7B600F97A6C /* UIElements */ = {
 			isa = PBXGroup;
 			children = (
-				5204F2542530C7B600F97A6C /* AppDelegate.swift */,
-				5204F2562530C7B600F97A6C /* SceneDelegate.swift */,
-				5204F2582530C7B600F97A6C /* ViewController.swift */,
-				5204F25A2530C7B600F97A6C /* Main.storyboard */,
+				5204F26E2531063100F97A6C /* README.md */,
+				5204F272253106B100F97A6C /* Constans */,
+				5204F2702531069100F97A6C /* Screens */,
+				5204F26D2530FBFE00F97A6C /* Support Files */,
+				5204F26C2530FBE100F97A6C /* Storyboard */,
 				5204F25D2530C7BB00F97A6C /* Assets.xcassets */,
-				5204F25F2530C7BB00F97A6C /* LaunchScreen.storyboard */,
-				5204F2622530C7BB00F97A6C /* Info.plist */,
-				5204F26A2530D3E900F97A6C /* Constant.swift */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
 		};
+		5204F26C2530FBE100F97A6C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5204F25F2530C7BB00F97A6C /* LaunchScreen.storyboard */,
+				5204F25A2530C7B600F97A6C /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		5204F26D2530FBFE00F97A6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5204F2562530C7B600F97A6C /* SceneDelegate.swift */,
+				5204F2542530C7B600F97A6C /* AppDelegate.swift */,
+				5204F2622530C7BB00F97A6C /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		5204F2702531069100F97A6C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5204F271253106A100F97A6C /* Controller */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5204F271253106A100F97A6C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5204F2582530C7B600F97A6C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5204F272253106B100F97A6C /* Constans */ = {
+			isa = PBXGroup;
+			children = (
+				5204F26A2530D3E900F97A6C /* Constant.swift */,
+			);
+			path = Constans;
+			sourceTree = "<group>";
+		};
+		5204F27525310F0700F97A6C /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5204F2732531080D00F97A6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5204F2502530C7B600F97A6C /* UIElements */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5204F2652530C7BB00F97A6C /* Build configuration list for PBXNativeTarget "UIElements" */;
 			buildPhases = (
+				5204F2732531080D00F97A6C /* Headers */,
 				5204F24D2530C7B600F97A6C /* Sources */,
 				5204F24E2530C7B600F97A6C /* Frameworks */,
 				5204F24F2530C7B600F97A6C /* Resources */,
+				5204F2742531082E00F97A6C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -130,11 +193,32 @@
 			files = (
 				5204F2612530C7BB00F97A6C /* LaunchScreen.storyboard in Resources */,
 				5204F25E2530C7BB00F97A6C /* Assets.xcassets in Resources */,
+				5204F26F2531063100F97A6C /* README.md in Resources */,
 				5204F25C2530C7B600F97A6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5204F2742531082E00F97A6C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"error: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n  exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5204F24D2530C7B600F97A6C /* Sources */ = {
@@ -289,7 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UIElements/Info.plist;
+				INFOPLIST_FILE = "UIElements/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UIElements/Info.plist;
+				INFOPLIST_FILE = "UIElements/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
